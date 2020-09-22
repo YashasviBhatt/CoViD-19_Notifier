@@ -19,7 +19,7 @@
 6. If you would like to see the _data_ which showed up then open **data.csv** file.
 
 #### Alternate Method
-In case you don't want to use _virtual environment_ which was has all the required _libraries_ installed then follow these steps:<br>
+In case you don't want to use _virtual environment_ which has all the required _libraries_ installed then follow these steps:<br>
 1. Make sure the location where your _terminal_ is open should be inside the _Cloned repository_ Folder.
 2. Type<br>`pip install -r requirements.txt`<br> and press enter in either _command_prompt_ or _powershell window_ as _administrator_.
 3. After Installing all the required _libraries_ execute the program<br>`python CoViD_19_Notifier.py`.
