@@ -11,7 +11,7 @@
 #### Recommended Method
 1. Make sure the location where your _terminal_ is open should be inside the _Cloned repository_ Folder.
 2. Type<br>`pip install virtualenv`<br>and press enter.
-3. Now, type<br>`.\covid_19_notifier\Script\activate`<br>and press enter.
+3. Now, type<br>`.\covid_19_notifier\Scripts\activate`<br>and press enter.
     - if you are having Error while _activating virtual environment_ then open _command prompt_ or _powershell window_ as _administrator_.
     - now type<br>`set-executionpolicy remotesigned`<br>press enter and repeat _step 3_.
 4. After activating _virtual environment_, the _path_ should look like this ```(covid_19_notifier) .\<your-path>\CoViD-19_Notifier```.
