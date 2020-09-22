@@ -4,7 +4,7 @@
 
 ### A. Pre-Requisites
 1. Open _command prompt_ or _powershell window_.
-2. Type this command<br>`git clone https://github.com/YashasviBhatt/TKinter-Projects`<br>and press enter.
+2. Type this command<br>`git clone https://github.com/YashasviBhatt/CoViD-19_Notifier`<br>and press enter.
 3. Go inside the _Cloned Repository_ folder and open _command-prompt_ or _powershell window_.
 
 ### B. Executing the Project
