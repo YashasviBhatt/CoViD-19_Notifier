@@ -14,7 +14,7 @@
 3. Now, type<br>`.\covid_19_notifier\Scripts\activate`<br>and press enter.
     - if you are having Error while _activating virtual environment_ then open _command prompt_ or _powershell window_ as _administrator_.
     - now type<br>`set-executionpolicy remotesigned`<br>press enter and repeat _step 3_.
-4. After activating _virtual environment_, the _path_ should look like this ```(covid_19_notifier) .\<your-path>\CoViD-19_Notifier```.
+4. After activating _virtual environment_, the _path_ should look like this<br>```(covid_19_notifier) .\<your-path>\CoViD-19_Notifier```.
 5. Run the Project using this<br>`python CoViD_19_Notifier.py`.
 6. If you would like to see the _data_ which showed up then open **data.csv** file.
 
