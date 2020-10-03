@@ -14,7 +14,7 @@
 4. If you would like to see the _data_ which showed up then open **data.csv** file.
 
 ### C. Working
-1. Firstly, we have created a function named as `notifyMe(title, message)` which will generate a notification with `title` and `message` _passed_ as `arguments`.
+1. Firstly, we have created a **function** named as `notifyMe(title, message)` which will generate a notification with `title` and `message` _passed_ as `arguments`.
 2. Secondly, we have created a **function** named as `getData(url)` which will fetch the data from url and returns the text it extracted from url.
 3. Now, we have _parsed_ the website of **[Ministry of Health and Family Welfare](https://www.mohfw.gov.in/)**
 using `Beautiful Soup HTML Parser`.
