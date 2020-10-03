@@ -22,7 +22,7 @@ if __name__ == '__main__':
     data = getData('https://www.mohfw.gov.in/')
     soup = BeautifulSoup(data, 'html.parser')                   # parsing html data
     # print(soup.prettify())                                      # prettify() kept the original form of data
-    data = soup.find_all('strong', {'class': 'mob-hide'})
+    data = soup.find_all('strong', {'class': 'mob-hide'})       # finding all the data inside strong tag with class mob-hide
     mystr = ''
     for dt in data:                                             # fetching the data inside the strong tag
         mystr += dt.get_text()
