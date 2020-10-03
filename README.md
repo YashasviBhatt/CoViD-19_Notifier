@@ -8,18 +8,15 @@
 3. Go inside the _Cloned Repository_ folder and open _command-prompt_ or _powershell window_.
 
 ### B. Executing the Project
-#### Recommended Method
-1. Make sure the location where your _terminal_ is open should be inside the _Cloned repository_ Folder.
-2. Type<br>`pip install virtualenv`<br>and press enter.
-3. Now, type<br>`.\covid_19_notifier\Scripts\activate`<br>and press enter.
-    - if you are having Error while _activating virtual environment_ then open _command prompt_ or _powershell window_ as _administrator_.
-    - now type<br>`set-executionpolicy remotesigned`<br>press enter and repeat _step 3_.
-4. After activating _virtual environment_, the _path_ should look like this<br>```(covid_19_notifier) .\<your-path>\CoViD-19_Notifier```.
-5. Run the Project using this<br>`python CoViD_19_Notifier.py`.
-6. If you would like to see the _data_ which showed up then open **data.csv** file.
-
-#### Alternate Method
-In case you don't want to use _virtual environment_ which has all the required _libraries_ installed then follow these steps:<br>
 1. Make sure the location where your _terminal_ is open should be inside the _Cloned repository_ Folder.
 2. Type<br>`pip install -r requirements.txt`<br> and press enter in either _command_prompt_ or _powershell window_ as _administrator_.
 3. After Installing all the required _libraries_ execute the program<br>`python CoViD_19_Notifier.py`.
+4. If you would like to see the _data_ which showed up then open **data.csv** file.
+
+### C. Working
+1. Firstly, we have created a function named as `notifyMe(title, message)` which will generate a notification with `title` and `message` _passed_ as `arguments`.
+2. Secondly, we have created a **function** named as `getData(url)` which will fetch the data from url and returns the text it extracted from url.
+3. Now, we have _parsed_ the website of **[Ministry of Health and Family Welfare](https://www.mohfw.gov.in/)**
+using `Beautiful Soup HTML Parser`.
+4. `Beautiful Soup` parse the website and generate a **parse tree** for _parsed pages_, thus this _parse tree_ is then used for _data extraction_.
+5. After _parsing_ the Website we have extracted the _useful/required data_ using several `Beautiful Soup` features and passed them to `notifyMe(title, message)` as arguments, which will _lastly_ generate **notification**.

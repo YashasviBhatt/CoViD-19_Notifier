@@ -18,7 +18,7 @@ def getData(url):
     return r.text
 
 if __name__ == '__main__':
-    # web scrapping
+    # parsing the website for data extraction
     data = getData('https://www.mohfw.gov.in/')
     soup = BeautifulSoup(data, 'html.parser')                   # parsing html data
     # print(soup.prettify())                                      # prettify() kept the original form of data
