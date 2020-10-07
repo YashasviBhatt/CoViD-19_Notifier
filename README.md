@@ -2,7 +2,7 @@
 This Project fetch the **Real Time CoViD-19 status of India** from **[Ministry of Health and Family Welfare Website](https://www.mohfw.gov.in/)** and display it as _Notification_ to user. Since, the data is from **MOHFW**, thus doubts regarding accuracy doesn't exists i.e it is 100% accurate as per the Government and it's affiliated Agencies who manage this Issue.
 ## To run this Project please follow these steps
 
-### A. Executing the Program
+### A. Executing the Project
 1. Open _command prompt_ or _powershell window_.
 2. Type this command<br>`git clone https://github.com/YashasviBhatt/CoViD-19_Notifier`<br>and press enter.
 3. Go inside the _Cloned Repository_ folder and open _command-prompt_ or _powershell window_.
